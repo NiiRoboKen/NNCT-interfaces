@@ -1,11 +1,9 @@
 #pragma once
 
-#include "motor.hpp"
-
 namespace NNCT {
 namespace interfaces {
 
-class ReadableMotor : public Motor {
+class SpeedEncoder {
     public:
     virtual float getRPM() = 0;
 };

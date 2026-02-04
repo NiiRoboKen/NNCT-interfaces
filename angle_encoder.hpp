@@ -3,9 +3,8 @@
 namespace NNCT {
 namespace interfaces {
 
-class RotaryEncoder {
+class AngleEncoder {
     public:
-    virtual float getRPM() = 0;
     virtual float getAngle() = 0;
 };
 
