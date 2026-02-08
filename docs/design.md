@@ -19,6 +19,8 @@ class SpeedControllableMotor {
 
 class Servo {
     <<Interface>>
+    # MAX_DEGREE
+    # MIN_DEGREE
     + setAngle(angle)
 }
 
@@ -64,6 +66,8 @@ PIDMotor --* AMT-102
 
 class PIDServo {
     <<Example>>
+    - MAX_DEGREE
+    - MIN_DEGREE
     - CytronRawMotor motor
     - AMT-102 encoder
     - kp
