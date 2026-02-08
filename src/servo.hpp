@@ -8,8 +8,8 @@ class Servo {
     virtual void setAngle(float degree) = 0;
     
     protected:
-    const float MAX_RANGE;
-    const float MIN_RANGE;
+    const float MAX_DEGREE;
+    const float MIN_DEGREE;
 };
 
 }
